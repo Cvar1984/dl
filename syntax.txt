@@ -1,0 +1,56 @@
+you can insert images signature here
+__PHPP // magic constant to start the compiler, also have info about the code
+
+# valid bash commentar
+// valid common used C fammily commentar
+-- valid lua commentar
+```
+valid markdown commentar
+```
+/**
+*  valid docblock
+*/
+
+int $integer = 1; # for 1 line code
+int $integer2 = 2
+
+string say_hello .say_hello('Hello world') // return Hello world string
+
+```
+    int, string, array, string
+```
+array $vars = {1, '2', {'two', 'dimension'}, hello_world}
+$another_array = {1,2,3}{2} // can only assign array with 2 values
+string $another_string = "Hello $var{4}" "10" // Hello worl
+
+for_each($vars as $var with $key)
+    print($var)
+    print($key);
+    print(STDOUT, 'the key $, the value $', $key, $value)
+.for_each(any kind of value) // error, must have not returned value
+
+int do_math($a, $b=2, $c)
+    $a = 1
+    $c = ($a + $b) // math :)
+.do_math($c) // return integer 3
+
+__CLASS(Vendor/App/MyClass)
+
+private string $name
+protec array $hobby = {'Sleep', 'East'}
+
+public __construct
+    @$name = $name;
+.__construct(@) // chainable method
+
+public getHobby .getHobby(@$hobby)
+public __destruct .__destruct(@$name)
+
+.__CLASS
+
+$app = Vendor/App/MyClass('Jhon')
+Vendor/App/MyClass@$static_thing = 'test'
+
+
+.__PHPP // end of code
+clusterfuck images binary data
